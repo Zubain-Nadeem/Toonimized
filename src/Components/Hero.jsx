@@ -24,7 +24,7 @@ const Hero = () => {
           style={{ backgroundImage: `url(${Hero2})` }}
           className='h-[680px] bg-cover bg-center'
         >
-          <img src={Hero1} alt="hero=1" className='bg-cover bg-center h-[700px] z-50' />
+          <img src={Hero1} alt="hero=1" className='bg-cover h-[700px] z-50' />
         </div>
       </section>
 
