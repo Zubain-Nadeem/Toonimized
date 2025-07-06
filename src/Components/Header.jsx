@@ -5,8 +5,8 @@ import CartImage from "../assets/images/header-images/cart.png"
 const Header = () => {
     return (
         <div>
-            <header className='border border-black w-[100%] h-[75px] flex items-center'>
-                <section className='w-[60%] h-[75px] px-6 flex items-center bg-linear-to-r from-[#9EC55F] to-[#C5C032] justify-between'>
+            <header className=' w-[100%] h-[75px] flex items-center'>
+                <section className='w-[53%] h-[75px] px-9 flex items-center bg-linear-to-r from-[#9EC55F] to-[#C5C032] justify-between'>
                     <img src={LogoImage} alt="Logo images" className='h-8' />
 
                     <nav className='flex list-none  gap-[45px] text-xl font-semibold text-[#42442B]'>
@@ -18,7 +18,7 @@ const Header = () => {
                 </section>
 
 
-                <section className='border border-yellow-800 w-[40%] h-[75px] bg-[#030303] text-white flex items-center justify-center gap-11'>
+                <section className='w-[47%] h-[75px] bg-[#030303] text-white flex items-center justify-center gap-11'>
                     <img src={CartImage} alt="cart image" className='h-9' />
                     <button className='bg-[#FFA600] px-4 py-2 cursor-pointer rounded-3xl'>GET STARTED</button>
                 </section>
