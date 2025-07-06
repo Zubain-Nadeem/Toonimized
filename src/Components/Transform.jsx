@@ -8,7 +8,7 @@ import PaintImage from "../assets/images/Transform-images/left/paint_p1uu9k.png"
 import PenImgage from "../assets/images/Transform-images/left/pen_zoev8o.png"
 const Transform = () => {
     return (
-        <div className='bg-[#1C1C1C] w-[100%] h-[100vh] py-6 flex justify-center items-center'>
+        <div className='bg-[#1C1C1C] w-[100%] min-h-[100vh] py-6 flex justify-center items-center flex-col gap-15'>
             <div className='w-[80%] mx-auto flex text-white pt-8'>
                 <section className=' h-[500px]'>
                     <div className=' w-[500px] h-[500px] relative rounded-full bg-gradient-to-bl from-[#F2EC3B] to-[#A1F69A] '>
@@ -31,12 +31,12 @@ const Transform = () => {
                                 <img src={PenImgage} alt="pen image" className='bg-[#E1FFF0] px-3 py-2 rounded-full' />
                             </div>
                             <div className='  text-center'>
-                               <h2 className='text-[#F2EC3B] text-3xl font-bold'>4295+</h2>
+                                <h2 className='text-[#F2EC3B] text-3xl font-bold'>4295+</h2>
                                 <p className='text-[#979A35] text-lg'>Drawing</p>
                             </div>
                         </div>
 
-                         <div className=''>
+                        <div className=''>
                             <div className='w-[100px] h-[100px] flex justify-center items-center rounded-full bg-gradient-to-bl from-[#F2EC3B] to-[#A1F69A]'>
                                 <img src={PaintImage} alt="paint image" className='bg-[#E1FFF0] px-3 py-2 rounded-full' />
                             </div>
@@ -46,7 +46,7 @@ const Transform = () => {
                             </div>
                         </div>
 
-                         <div className=''>
+                        <div className=''>
                             <div className='w-[100px] h-[100px] flex justify-center items-center rounded-full bg-gradient-to-bl from-[#F2EC3B] to-[#A1F69A]'>
                                 <img src={CupImage} alt="cup image" className='bg-[#E1FFF0] px-3 py-2 rounded-full' />
                             </div>
@@ -57,7 +57,7 @@ const Transform = () => {
                             </div>
                         </div>
 
-                         <div className=''>
+                        <div className=''>
                             <div className='w-[100px] h-[100px] flex justify-center items-center rounded-full bg-gradient-to-bl from-[#F2EC3B] to-[#A1F69A]'>
                                 <img src={DollarImage} alt="dollar image" className='bg-[#E1FFF0] px-3 py-2 rounded-full' />
                             </div>
@@ -69,7 +69,7 @@ const Transform = () => {
                         </div>
 
 
-                         <div className=''>
+                        <div className=''>
                             <div className='w-[100px] h-[100px] flex justify-center items-center rounded-full bg-gradient-to-bl from-[#F2EC3B] to-[#A1F69A]'>
                                 <img src={TickImage} alt="tick image" className='bg-[#E1FFF0] px-3 py-2 rounded-full' />
                             </div>
@@ -81,7 +81,7 @@ const Transform = () => {
                         </div>
 
 
-                         <div className=''>
+                        <div className=''>
                             <div className='w-[100px] h-[100px] flex justify-center items-center rounded-full bg-gradient-to-bl from-[#F2EC3B] to-[#A1F69A]'>
                                 <img src={TurckImage} alt="truck image" className='bg-[#E1FFF0] px-3 py-2 rounded-full' />
                             </div>
@@ -95,6 +95,10 @@ const Transform = () => {
                     </section>
 
                 </section>
+
+            </div>
+            <div className=''>
+                <button className='text-white bg-purple-600 px-5 py-3 rounded-2xl text-xl font-semibold cursor-pointer hover:bg-purple-500'>TRY CUSTOMIZATION</button>
             </div>
         </div>
     )
