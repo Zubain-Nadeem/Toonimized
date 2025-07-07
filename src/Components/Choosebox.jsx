@@ -19,7 +19,7 @@ const Choosebox = () => {
     const [mainImage, setMainImage] = useState(Simpson1);
 
     return (
-        <div className=' w-[100%] min-h-[100vh] bg-gradient-to-bl from-[#F2EC3B] to-[#A1F69A]'>
+        <div className=' w-[100%] min-h-[100vh] bg-gradient-to-bl from-[#F2EC3B] to-[#A1F69A] shadow-2xl'>
             <section className='w-[80%] mx-auto flex justify-between py-10'>
                 <div className=' flex flex-col gap-10'>
                     <div className=' w-[600px] h-[600px] rounded-full bg-gradient-to-bl from-[#EFEC3E] to-[#A0F69B] shadow-white shadow-lg flex justify-center items-center'>
